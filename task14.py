@@ -5,6 +5,6 @@
 n = int(input('enter n which more than 2: '))
 
 i = 0
-while 2 ** i < n:
-    print(f"{i} {2 ** i}")
+while ( item := 2 ** i ) < n:
+    print(f"{i} {item}")
     i += 1
